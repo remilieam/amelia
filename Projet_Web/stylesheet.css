@@ -1,0 +1,229 @@
+/* Général */
+
+html, body
+{
+    background-image: url("images/fond.png");
+    background-attachment: fixed; /* Pas de défilement */
+    background-repeat: no-repeat; /* Pas de répétition */
+    background-size: cover; /* Recouvrement de toute la page */
+    background-position: center;
+    margin:0; /* Marges extérieures */
+    padding:0; /* Marges intérieures */
+    font-family: "Arial";
+    font-size: 12pt;
+    text-align: justify;
+}
+
+section
+{
+    background-color: rgba(242,242,242,0.60); /* Transparence de 0.60 */
+    border-radius: 10px;
+    width: 45em;
+    margin: 1em auto 4em auto; /* Marge extérieure haute droite basse gauche */
+    padding: 1px 20px 20px 20px; /* Marge intérieure haute droite basse gauche */
+}
+
+article
+{
+    background-color: rgba(255,255,255,0.70);
+    border-radius: 10px;
+    border: 2px black dashed;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.right
+{
+    text-align: right;
+}
+
+/* En-tête et fil d’Ariane */
+
+header
+{
+    padding: 0px 20px 0px 20px;
+    top: 0;
+}
+
+table.header
+{
+    width: 47em;
+    margin: auto;
+}
+
+tr.header
+{
+    vertical-align: top;
+}
+
+td.header
+{
+    text-align: left;
+}
+
+h1
+{
+    font-family: "Segoe Print", "Century Gothic", "Arial";
+    font-weight: bold;
+    font-size: 30pt;
+    color: rgb(255,102,0);
+}
+
+/* Pied-de-page */
+
+footer
+{
+    background-color: rgb(205,205,205);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/* Page de connexion et page de mot de passe oublié */
+
+section.connect
+{
+    background-color: rgba(242,242,242,0.60);
+    width: 26em;
+    margin: 1em auto 4em auto;
+    /* margin-top: 50vh; Poussé de la moitié de hauteur de viewport */
+    /* transform: translateY(-100%); Tiré de sa propre hauteur */
+    padding: 10px 10px 30px 10px;
+}
+
+table.connect
+{
+    border-spacing: 20px 10px; /* Espacement horizontal vertical */
+    margin: auto;
+}
+
+h2.connect
+{
+    text-align: center;
+}
+
+/* Tableaux */
+
+table
+{
+    border-spacing: 0px 10px; /* Espacement horizontal vertical */
+    text-align: left;
+}
+
+table.large
+{
+    width: 100%;
+}
+
+table.mail
+{
+    width: 100%;
+}
+
+td.mail
+{
+    width:25%;
+}
+
+tr.projet
+{
+    vertical-align: top;
+}
+
+td.projet
+{
+    width:20%;
+}
+
+/* Boutons */
+
+.blanc
+{
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+    color: black;
+    text-decoration: none;
+}
+
+.vert
+{
+    background-color: rgb(51,204,102);
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+    color: black;
+    text-decoration: none;
+}
+
+.bleu
+{
+    background-color: rgb(51,153,204);
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+    color: black;
+    text-decoration: none;
+}
+
+.orange
+{
+    background-color: rgb(255,102,0);
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+    color: black;
+    text-decoration: none;
+}
+
+.jaune
+{
+    background-color: rgb(255,204,51);
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+    color: black;
+    text-decoration: none;
+}
+
+/* Formulaire */
+
+input, textarea, select
+{
+    padding: 4px 8px 4px 8px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+    font-family: "Arial";
+    font-size: 12pt;
+}
+
+select
+{
+    padding: 4px 4px 1px 4px;
+    border: 1px solid #C0C0C0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #C0C0C0 inset;
+    font-family: "Arial";
+    font-size: 12pt;
+}
+
+textarea
+{
+    width: 97.5%;
+    margin: auto;
+}
+
+input[type=submit], input[type=file], input[type=checkbox], input[type=radio]
+{
+    cursor:pointer;
+    padding: 4px 20px 4px 20px;
+}
